@@ -1,0 +1,183 @@
+﻿@page "/"
+@inject HttpClient Http
+@inject NavigationManager Navigation
+@inject HttpClientWrapper ApiClient
+
+<h3>Posztok listája (Backendből)</h3>
+
+@if (posts == null)
+{
+    <p><em>Betöltés...</em></p>
+}
+else if (!posts.Any())
+{
+    <p><em>Nincsenek posztok.</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var post in posts)
+        {
+            <li>
+                <b>@post.Title</b> (@post.CreatedAt.ToShortDateString())
+                <button @onclick="@(() => EditPost(post))">✏️</button>
+                <button @onclick="@(() => DeletePost(post.Id))">🗑️</button>
+            </li>
+        }
+    </ul>
+}
+
+    @code {
+
+    }
+
+
+<hr />
+
+<h3>@(editMode ? "Poszt szerkesztése" : "Új poszt hozzáadása")</h3>
+
+<EditForm Model="newPost" OnValidSubmit="HandleValidSubmit">
+    <InputText @bind-Value="newPost.Title" placeholder="Cím" class="form-control" />
+    <br />
+    <InputTextArea @bind-Value="newPost.Content" placeholder="Tartalom" class="form-control" />
+    <br />
+    <button type="submit" class="btn btn-primary">@submitButtonText</button>
+    @if (editMode)
+    {
+        <button type="button" class="btn btn-secondary" @onclick="CancelEdit">Mégse</button>
+    }
+</EditForm>
+@code {
+    private List<Post>? posts;
+    private Post newPost = new Post();
+    private bool editMode = false;
+    private string submitButtonText = "Hozzáadás";
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await ApiClient.GetAsync("api/post");
+
+        if (response.IsSuccessStatusCode)
+        {
+            var posts = await response.Content.ReadFromJsonAsync<List<Post>>();
+            // Itt feldolgozhatod a posztokat
+        }
+        else
+        {
+            Console.WriteLine($"Hiba: {response.StatusCode}");
+        }
+    }
+
+    /*
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+        if (string.IsNullOrEmpty(token))
+        {
+            Console.WriteLine("Nincs token! Vissza a /login oldalra...");
+            Navigation.NavigateTo("/login");
+            return;
+        }
+
+        // Beállítjuk a JWT tokent minden kéréshez
+        Http.DefaultRequestHeaders.Authorization =
+            new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+        try
+        {
+            posts = await Http.GetFromJsonAsync<List<Post>>("api/post");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Hiba a lekérésnél: {ex.Message}");
+        }
+    }
+    */
+
+    /*
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadPosts();
+    }
+    */
+    private async Task LoadPosts()
+    {
+        try
+        {
+            posts = await Http.GetFromJsonAsync<List<Post>>("https://localhost:7024/api/post");
+            //posts = await Http.GetFromJsonAsync<List<Post>>("https://brferenc.com/api/post");
+            //posts = await Http.GetFromJsonAsync<List<Post>>("api/post");
+            //await Http.PostAsJsonAsync("https://localhost:7024/api/post", newPost);
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Hiba a lekérdezésben: {ex.Message}");
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (editMode)
+        {
+            await Http.PutAsJsonAsync($"https://localhost:7024/api/post/{newPost.Id}", newPost);
+        }
+        else
+        {
+            newPost.CreatedAt = DateTime.UtcNow;
+            await Http.PostAsJsonAsync("https://localhost:7024/api/post", newPost);
+        }
+
+        await LoadPosts();
+        ResetForm();
+    }
+
+    private void EditPost(Post post)
+    {
+        newPost = new Post
+            {
+                Id = post.Id,
+                Title = post.Title,
+                Content = post.Content,
+                CreatedAt = post.CreatedAt
+            };
+
+        editMode = true;
+        submitButtonText = "Mentés";
+    }
+
+    private void CancelEdit()
+    {
+        ResetForm();
+    }
+
+    private async Task DeletePost(int id)
+    {
+        var confirm = await JS.InvokeAsync<bool>("confirm", "Biztosan törlöd?");
+        if (!confirm)
+            return;
+
+        await Http.DeleteAsync($"https://localhost:7024/api/post/{id}");
+        await LoadPosts();
+    }
+
+    private void ResetForm()
+    {
+        newPost = new Post();
+        editMode = false;
+        submitButtonText = "Hozzáadás";
+    }
+
+    [Inject]
+    private IJSRuntime JS { get; set; } = default!;
+
+    public class Post
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Content { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; }
+    }
+}
