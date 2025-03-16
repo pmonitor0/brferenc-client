@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MvHisPYyvOUacOkJdM4faINobaCdeuZ4Y4pF6rhD+9k=",
+  "Hash": "9LR1ZoWMPJgcWNvVRi//YI/KoNaHs+uintPQC3i5VLc=",
   "Source": "MyApp.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "9b0gt0pqgn",
-      "Integrity": "lbJZUuVsj3dY7x1/rwL3wMRnKod2ad7gH1v+2CJqHqI=",
+      "Fingerprint": "joxjbd746w",
+      "Integrity": "Q+AqgKNoFlAyK4YWD1X4srYxG+Vh6waitl2AADkWIm0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -850,8 +850,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "rqan2rtycj",
-      "Integrity": "I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM=",
+      "Fingerprint": "fumdzhwe4f",
+      "Integrity": "5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\MyApp.Client.pdb"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "3hp64gs467",
-      "Integrity": "ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ=",
+      "Fingerprint": "z04czxoa3k",
+      "Integrity": "nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\webcil\\MyApp.Client.wasm"
@@ -4343,12 +4343,12 @@
       "OriginalItemSpec": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-3hp64gs467.gz",
+      "Identity": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-z04czxoa3k.gz",
       "SourceId": "MyApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/MyApp.Client#[.{fingerprint=3hp64gs467}]!.wasm.gz",
+      "RelativePath": "_framework/MyApp.Client#[.{fingerprint=z04czxoa3k}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4357,8 +4357,8 @@
       "RelatedAsset": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yi3ularnse",
-      "Integrity": "WnrcGbMEPiAXLJvmHBgKoqNaw0IPOTIiBk+6bPgkcZ0=",
+      "Fingerprint": "liy28s5g47",
+      "Integrity": "PWPYXEJaEe5LfBEUtFaQSI+9Oy8YGMmttK1IehLyHVs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.wasm"
@@ -5813,7 +5813,7 @@
       "OriginalItemSpec": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.CSharp.wasm"
     },
     {
-      "Identity": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\blqch3ogjc-9b0gt0pqgn.gz",
+      "Identity": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\blqch3ogjc-joxjbd746w.gz",
       "SourceId": "MyApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\",
@@ -5827,8 +5827,8 @@
       "RelatedAsset": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "07xik8jm7y",
-      "Integrity": "jNxZfUE7YU4nOBi0tJhftmLyg0gyj37/CZZosq893GI=",
+      "Fingerprint": "o2pv2qq32q",
+      "Integrity": "sNqqeFOoU35NhHF9ZkWKDGfpErE8BfqWO+S6ARoL4AA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7052,12 +7052,12 @@
       "OriginalItemSpec": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.wasm"
     },
     {
-      "Identity": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-rqan2rtycj.gz",
+      "Identity": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-fumdzhwe4f.gz",
       "SourceId": "MyApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/MyApp.Client#[.{fingerprint=rqan2rtycj}]!.pdb.gz",
+      "RelativePath": "_framework/MyApp.Client#[.{fingerprint=fumdzhwe4f}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7066,8 +7066,8 @@
       "RelatedAsset": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3wxgllwdnc",
-      "Integrity": "bQfYxUSKRqzLUzkQbQpCl7vSD9FSqgEXAC6fbi7pTFg=",
+      "Fingerprint": "1jwele0qmw",
+      "Integrity": "LUniuWxfZpYZfVHni0s5ARMpC6eSNRj/z+Gt0eni2f8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.pdb"
@@ -10705,7 +10705,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lbJZUuVsj3dY7x1/rwL3wMRnKod2ad7gH1v+2CJqHqI=\""
+          "Value": "\"Q+AqgKNoFlAyK4YWD1X4srYxG+Vh6waitl2AADkWIm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q+AqgKNoFlAyK4YWD1X4srYxG+Vh6waitl2AADkWIm0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\blqch3ogjc-joxjbd746w.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081149071"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12322"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sNqqeFOoU35NhHF9ZkWKDGfpErE8BfqWO+S6ARoL4AA=\""
         },
         {
           "Name": "Last-Modified",
@@ -10714,45 +10753,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lbJZUuVsj3dY7x1/rwL3wMRnKod2ad7gH1v+2CJqHqI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\blqch3ogjc-9b0gt0pqgn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081195193"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12315"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jNxZfUE7YU4nOBi0tJhftmLyg0gyj37/CZZosq893GI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lbJZUuVsj3dY7x1/rwL3wMRnKod2ad7gH1v+2CJqHqI=\""
+          "Value": "W/\"Q+AqgKNoFlAyK4YWD1X4srYxG+Vh6waitl2AADkWIm0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lbJZUuVsj3dY7x1/rwL3wMRnKod2ad7gH1v+2CJqHqI="
+          "Value": "sha256-Q+AqgKNoFlAyK4YWD1X4srYxG+Vh6waitl2AADkWIm0="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\blqch3ogjc-9b0gt0pqgn.gz",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\blqch3ogjc-joxjbd746w.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12315"
+          "Value": "12322"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jNxZfUE7YU4nOBi0tJhftmLyg0gyj37/CZZosq893GI=\""
+          "Value": "\"sNqqeFOoU35NhHF9ZkWKDGfpErE8BfqWO+S6ARoL4AA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:00 GMT"
+          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jNxZfUE7YU4nOBi0tJhftmLyg0gyj37/CZZosq893GI="
+          "Value": "sha256-sNqqeFOoU35NhHF9ZkWKDGfpErE8BfqWO+S6ARoL4AA="
         }
       ]
     },
@@ -21987,168 +21987,7 @@
       ]
     },
     {
-      "Route": "_framework/MyApp.Client.3hp64gs467.wasm",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38677"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3hp64gs467"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MyApp.Client.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MyApp.Client.3hp64gs467.wasm",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-3hp64gs467.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000059797883"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16722"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WnrcGbMEPiAXLJvmHBgKoqNaw0IPOTIiBk+6bPgkcZ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3hp64gs467"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MyApp.Client.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MyApp.Client.3hp64gs467.wasm.gz",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-3hp64gs467.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16722"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WnrcGbMEPiAXLJvmHBgKoqNaw0IPOTIiBk+6bPgkcZ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3hp64gs467"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MyApp.Client.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WnrcGbMEPiAXLJvmHBgKoqNaw0IPOTIiBk+6bPgkcZ0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MyApp.Client.pdb",
+      "Route": "_framework/MyApp.Client.fumdzhwe4f.pdb",
       "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22158,7 +21997,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32236"
+          "Value": "32432"
         },
         {
           "Name": "Content-Type",
@@ -22166,148 +22005,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM=\""
+          "Value": "\"5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MyApp.Client.pdb",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-rqan2rtycj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000041715335"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23971"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bQfYxUSKRqzLUzkQbQpCl7vSD9FSqgEXAC6fbi7pTFg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MyApp.Client.pdb.gz",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-rqan2rtycj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23971"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bQfYxUSKRqzLUzkQbQpCl7vSD9FSqgEXAC6fbi7pTFg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bQfYxUSKRqzLUzkQbQpCl7vSD9FSqgEXAC6fbi7pTFg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MyApp.Client.rqan2rtycj.pdb",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32236"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:19 GMT"
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22317,7 +22019,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rqan2rtycj"
+          "Value": "fumdzhwe4f"
         },
         {
           "Name": "label",
@@ -22325,18 +22027,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM="
+          "Value": "sha256-5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8="
         }
       ]
     },
     {
-      "Route": "_framework/MyApp.Client.rqan2rtycj.pdb",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-rqan2rtycj.gz",
+      "Route": "_framework/MyApp.Client.fumdzhwe4f.pdb",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-fumdzhwe4f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000041715335"
+          "Quality": "0.000041457651"
         }
       ],
       "ResponseHeaders": [
@@ -22346,15 +22048,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23971"
+          "Value": "24120"
         },
         {
           "Name": "ETag",
-          "Value": "\"bQfYxUSKRqzLUzkQbQpCl7vSD9FSqgEXAC6fbi7pTFg=\""
+          "Value": "\"LUniuWxfZpYZfVHni0s5ARMpC6eSNRj/z+Gt0eni2f8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22374,13 +22076,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM=\""
+          "Value": "W/\"5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rqan2rtycj"
+          "Value": "fumdzhwe4f"
         },
         {
           "Name": "label",
@@ -22388,13 +22090,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-I3R0BiNjl8wGe/SKuaHnJ7QyXKCW03AcLg5GOrIBnQM="
+          "Value": "sha256-5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8="
         }
       ]
     },
     {
-      "Route": "_framework/MyApp.Client.rqan2rtycj.pdb.gz",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-rqan2rtycj.gz",
+      "Route": "_framework/MyApp.Client.fumdzhwe4f.pdb.gz",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-fumdzhwe4f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22403,7 +22105,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23971"
+          "Value": "24120"
         },
         {
           "Name": "Content-Type",
@@ -22411,11 +22113,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bQfYxUSKRqzLUzkQbQpCl7vSD9FSqgEXAC6fbi7pTFg=\""
+          "Value": "\"LUniuWxfZpYZfVHni0s5ARMpC6eSNRj/z+Gt0eni2f8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22433,7 +22135,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rqan2rtycj"
+          "Value": "fumdzhwe4f"
         },
         {
           "Name": "label",
@@ -22441,7 +22143,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bQfYxUSKRqzLUzkQbQpCl7vSD9FSqgEXAC6fbi7pTFg="
+          "Value": "sha256-LUniuWxfZpYZfVHni0s5ARMpC6eSNRj/z+Gt0eni2f8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MyApp.Client.pdb",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MyApp.Client.pdb",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-fumdzhwe4f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041457651"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24120"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUniuWxfZpYZfVHni0s5ARMpC6eSNRj/z+Gt0eni2f8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5xuJ+FvOko05GQT6zLzCQDJRlpAV284kRDHCxXer8i8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MyApp.Client.pdb.gz",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\jm1mybe2v0-fumdzhwe4f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUniuWxfZpYZfVHni0s5ARMpC6eSNRj/z+Gt0eni2f8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUniuWxfZpYZfVHni0s5ARMpC6eSNRj/z+Gt0eni2f8="
         }
       ]
     },
@@ -22464,11 +22303,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ=\""
+          "Value": "\"nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22478,18 +22317,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ="
+          "Value": "sha256-nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI="
         }
       ]
     },
     {
       "Route": "_framework/MyApp.Client.wasm",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-3hp64gs467.gz",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-z04czxoa3k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000059797883"
+          "Quality": "0.000059424768"
         }
       ],
       "ResponseHeaders": [
@@ -22499,15 +22338,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16722"
+          "Value": "16827"
         },
         {
           "Name": "ETag",
-          "Value": "\"WnrcGbMEPiAXLJvmHBgKoqNaw0IPOTIiBk+6bPgkcZ0=\""
+          "Value": "\"PWPYXEJaEe5LfBEUtFaQSI+9Oy8YGMmttK1IehLyHVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22527,19 +22366,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ=\""
+          "Value": "W/\"nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ibUZ8GC655H+pj3oBpPxHc2tL8iUHr7gfasIGhz3BzQ="
+          "Value": "sha256-nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI="
         }
       ]
     },
     {
       "Route": "_framework/MyApp.Client.wasm.gz",
-      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-3hp64gs467.gz",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-z04czxoa3k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22548,7 +22387,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16722"
+          "Value": "16827"
         },
         {
           "Name": "Content-Type",
@@ -22556,11 +22395,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WnrcGbMEPiAXLJvmHBgKoqNaw0IPOTIiBk+6bPgkcZ0=\""
+          "Value": "\"PWPYXEJaEe5LfBEUtFaQSI+9Oy8YGMmttK1IehLyHVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 18:11:20 GMT"
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22578,7 +22417,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WnrcGbMEPiAXLJvmHBgKoqNaw0IPOTIiBk+6bPgkcZ0="
+          "Value": "sha256-PWPYXEJaEe5LfBEUtFaQSI+9Oy8YGMmttK1IehLyHVs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MyApp.Client.z04czxoa3k.wasm",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MyApp.Client.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z04czxoa3k"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MyApp.Client.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MyApp.Client.z04czxoa3k.wasm",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-z04czxoa3k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000059424768"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16827"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PWPYXEJaEe5LfBEUtFaQSI+9Oy8YGMmttK1IehLyHVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z04czxoa3k"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MyApp.Client.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTn8jtvIKoTEMLZ8urR+EHMLTrETVKX4s1G87V+NLyI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MyApp.Client.z04czxoa3k.wasm.gz",
+      "AssetFile": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\compressed\\0khgitrlto-z04czxoa3k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PWPYXEJaEe5LfBEUtFaQSI+9Oy8YGMmttK1IehLyHVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z04czxoa3k"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MyApp.Client.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PWPYXEJaEe5LfBEUtFaQSI+9Oy8YGMmttK1IehLyHVs="
         }
       ]
     },
