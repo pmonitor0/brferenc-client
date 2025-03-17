@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Projects\\Csharp\\Web\\MyApp.API\\MyApp.client\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MyApp.Client.styles.css",
+      "PackagePath": "staticwebassets\\MyApp.Client.styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyApp.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyApp.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MyApp.Client.props",
+      "PackagePath": "build\\MyApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MyApp.Client.props",
+      "PackagePath": "buildMultiTargeting\\MyApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MyApp.Client.props",
+      "PackagePath": "buildTransitive\\MyApp.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
