@@ -1,0 +1,2 @@
+D:\Projects\Csharp\Web\MyApp.API\dist\sample-data\weather.json
+D:\Projects\Csharp\Web\MyApp.API\dist\web.config

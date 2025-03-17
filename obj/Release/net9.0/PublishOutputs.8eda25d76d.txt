@@ -1,0 +1,7 @@
+D:\Projects\Csharp\Web\MyApp.API\MyApp.Client\dist\dist\web.config
+D:\Projects\Csharp\Web\MyApp.API\MyApp.Client\dist\dist\MyApp.Client.staticwebassets.endpoints.json
+D:\Projects\Csharp\Web\MyApp.API\MyApp.Client\dist\dist\sample-data\weather.json
+D:\Projects\Csharp\Web\MyApp.API\MyApp.Client\dist\dist\wwwroot\_framework\blazor.boot.json
+D:\Projects\Csharp\Web\MyApp.API\MyApp.Client\dist\sample-data\weather.json
+D:\Projects\Csharp\Web\MyApp.API\MyApp.Client\dist\_framework\blazor.boot.json
+D:\Projects\Csharp\Web\MyApp.API\MyApp.Client\dist\web.config
