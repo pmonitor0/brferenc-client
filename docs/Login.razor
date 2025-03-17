@@ -1,0 +1,71 @@
+@page "/login"
+@inject HttpClient Http
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
+
+<h3>Bejelentkezés</h3>
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <InputText @bind-Value="loginModel.Username" placeholder="Felhasználónév" class="form-control mb-2" />
+    <InputText @bind-Value="loginModel.Password" placeholder="Jelszó" type="password" class="form-control mb-2" />
+    <button type="submit" class="btn btn-primary">Bejelentkezés</button>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new();
+    private string ErrorMessage = string.Empty;
+
+    private async Task HandleLogin()
+    {
+        ErrorMessage = string.Empty;
+
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/Auth/login", loginModel);
+
+            if (response.IsSuccessStatusCode)
+            {
+                // ?? JSON-t várunk a backendtõl!
+                var tokens = await response.Content.ReadFromJsonAsync<TokenResponse>();
+
+                if (tokens is null)
+                {
+                    ErrorMessage = "Hibás token válasz!";
+                    return;
+                }
+
+                await JS.InvokeVoidAsync("localStorage.setItem", "authToken", tokens.AccessToken);
+                await JS.InvokeVoidAsync("localStorage.setItem", "refreshToken", tokens.RefreshToken);
+
+                Console.WriteLine($"Sikeres bejelentkezés! Token: {tokens.AccessToken}");
+
+                Navigation.NavigateTo("/");
+            }
+            else
+            {
+                ErrorMessage = "Hibás felhasználónév vagy jelszó!";
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"Hiba: {ex.Message}";
+        }
+    }
+
+    public class LoginModel
+    {
+        public string Username { get; set; } = "";
+        public string Password { get; set; } = "";
+    }
+
+    public class TokenResponse
+    {
+        public string AccessToken { get; set; } = "";
+        public string RefreshToken { get; set; } = "";
+    }
+}
