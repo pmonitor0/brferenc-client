@@ -1,5 +1,22 @@
+<<<<<<< HEAD
+=======
+.vs/
+*.user
+*.suo
+
+# Build
+>>>>>>> 8238b05 (Cleanup: Ignore .vs and other build artifacts)
 bin/
 obj/
 dist/
 publish/
+<<<<<<< HEAD
 wwwroot/_framework/
+=======
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+>>>>>>> 8238b05 (Cleanup: Ignore .vs and other build artifacts)

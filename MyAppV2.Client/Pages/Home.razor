@@ -1,0 +1,43 @@
+﻿@page "/"
+@inject MyAppV2.Client.Services.HttpClientWrapper Api
+
+<h3>Adatok</h3>
+
+@if (posts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var post in posts)
+        {
+            <li>@post.Title - @post.Content</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Post>? posts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await Api.GetAsync("api/posts");
+
+        if (response.IsSuccessStatusCode)
+        {
+            posts = await response.Content.ReadFromJsonAsync<List<Post>>();
+        }
+        else
+        {
+            Console.WriteLine("Hiba az adatok lekérésekor.");
+        }
+    }
+
+    public class Post
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = "";
+        public string Content { get; set; } = "";
+    }
+}

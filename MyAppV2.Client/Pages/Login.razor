@@ -1,0 +1,67 @@
+﻿@page "/login"
+@inject HttpClient Http
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
+
+@using System.Text.Json
+
+<h3>Bejelentkezés</h3>
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <InputText @bind-Value="loginModel.Username" placeholder="Felhasználónév" class="form-control mb-2" />
+    <InputText @bind-Value="loginModel.Password" placeholder="Jelszó" type="password" class="form-control mb-2" />
+    <button type="submit" class="btn btn-primary">Bejelentkezés</button>
+</EditForm>
+
+@code {
+    private LoginRequest loginModel = new();
+    private string ErrorMessage = "";
+
+    private async Task HandleLogin()
+    {
+        ErrorMessage = "";
+
+        var response = await Http.PostAsJsonAsync("api/Auth/login", loginModel);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var jsonString = await response.Content.ReadAsStringAsync();
+
+            var jwtResponse = JsonSerializer.Deserialize<LoginResponse>(jsonString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            if (jwtResponse == null || string.IsNullOrEmpty(jwtResponse.AccessToken))
+            {
+                ErrorMessage = "Érvénytelen token válasz!";
+                return;
+            }
+
+            await JS.InvokeVoidAsync("localStorage.setItem", "accessToken", jwtResponse.AccessToken);
+            await JS.InvokeVoidAsync("localStorage.setItem", "refreshToken", jwtResponse.RefreshToken);
+
+            Console.WriteLine($"Sikeres bejelentkezés! Token: {jwtResponse.AccessToken}");
+
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            ErrorMessage = "Hibás felhasználónév vagy jelszó!";
+        }
+    }
+
+    public class LoginRequest
+    {
+        public string Username { get; set; } = "";
+        public string Password { get; set; } = "";
+    }
+
+    public class LoginResponse
+    {
+        public string AccessToken { get; set; } = "";
+        public string RefreshToken { get; set; } = "";
+    }
+}
